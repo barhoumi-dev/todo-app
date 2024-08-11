@@ -26,7 +26,7 @@ services:
       - default
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.todo_php.rule=Host(`${DOMAIN_NAME:-localhost}`, `api.${DOMAIN_NAME:-localhost}`)"
+      - "traefik.http.routers.todo_php.rule=Host(`${DOMAIN_NAME:-localhost}`)"
       - "traefik.http.routers.todo_php.tls=true"
 
   pwa:
