@@ -1,0 +1,4 @@
+tls:
+    certificates:
+        - certFile: "/etc/traefik/ssl/todo-app-cert.pem"
+          keyFile: "/etc/traefik/ssl/todo-app-key.pem"
